@@ -454,7 +454,17 @@ li:hover {
 #fine a {
     color: rgb(240, 29, 29)
 }
+
 #scrollToTop {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#scrollToTop:active,
+#scrollToTop:focus {
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
